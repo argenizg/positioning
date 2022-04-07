@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  
+  margin: 10px;
+  
+}
+html{
+  color: purple;
+}
+.big-container {
+  background-color: coral;
+  display: flex;
+  justify-content: space-around;
+}
+.yellow-box {
+  background-color: yellow;
+  border: 5px solid black;
+  }
+.second-box {
+  background-color: green;;
+}
+.third-box {
+  background-color: brown;
+}
+.fifth-box {
+  background-color: aquamarine;
+}
+.sixth-box {
+  background-color: blanchedalmond;
+  color: chartreuse;
+}
+.seventh-box {
+  background-color: cornflowerblue;
+}
+.a-button {
+  background-color: aqua;
+}
+.smaller-container {
+  background-color: darkcyan;
+  display: flex;
+}

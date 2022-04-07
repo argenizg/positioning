@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  flex-direction: row-reverse;
+}
+html,
+body {
+  background-color: skyblue;
+  height: 100%;
+}
+h1 {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10rem;
+  margin: 20px 40px;
+  border-radius: 10rem 40px 30rem 50%;
+}
+p {
+  background-color: red;
+  margin: 40px;
+  margin-left: 40px;
+  margin-right: 60px;
+}
+h2 {
+  background-color: blueviolet;
+}
+body {
+  background-color: yellow;
+}
+style {
+  color: purple;
+}

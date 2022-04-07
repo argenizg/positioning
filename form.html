@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="form.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms and inputs</title>
+  </head>
+  <body>
+    <div class="big-container">
+      <form class="yellow-box">
+        <h1>Forms</h1>
+        <button type="submit" onclick="alert('you thought this was it')">
+          click me
+        </button>
+        <button onclick="alert('what it do baby!')">Submit this shit</button>
+
+        <input class="a-button" type="button" value="add to favorites" />
+      </form>
+      <form class="second-box">
+        <label> Big PP or Small PP? </label>
+        <input type="radio" id="Big-PP" name="BIG PP" unchecked /><label
+          for="BiG PP"
+          >BIG PP</label
+        >
+        <input type="radio" id="small-pp" name="SMALL PP" unchecked />
+        <label for="scales">SMALL PP</label>
+      </form>
+      <form class="yellow-box">
+        <label for="third-box">Head color and body color?</label>
+        <input type="color" id="head" name="head" />
+        <label for="head">Head</label>
+        <input type="color" id="body" name="body" />
+        <label for="body">Body</label>
+      </form>
+      <form class="fifth-box">
+        <label for="start">Start date</label>
+        <input
+          type="date"
+          id="start"
+          name="trip-start"
+          value="2018-07-22"
+          min="2018-01-01"
+          max="2018-12-31"
+        />
+        <div>
+          <label> Start Date </label>
+          <input
+            type="date"
+            name="trip-start"
+            aria-valuemax="2028-12-31"
+            aria-valuemin="1900-12-31"
+          />
+        </div>
+      </form>
+    </div>
+    <div class="smaller-container">
+      <form class="sixth-box">
+        <p>Enter you gmail here:</p>
+        <input type="email" id="email" pattern=".+@gmail.com" size="30" />
+        <button type="submit">Submit</button>
+      </form>
+      <form class="seventh-box">
+        <label for="avatar"> Upload a file: </label>
+        <input
+          type="file"
+          id="avatar"
+          name="avatar"
+          accept="image/png, image/jpeg"
+          required
+        />
+        <div>
+          <label>Enter your password here (8 charters minimum)</label>
+          <div><input type="password" /></div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
