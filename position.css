@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+   font-size: x-large;
+}
+html{
+    background-color:blue;
+    height: 3000px;
+}
+.daddy{
+    background-color: aqua;
+   height: 150px;
+    border-style: dashed;
+   
+}
+.mother{
+background-color: bisque;
+border-style: solid;
+
+}
+.daughter{
+background-color: aquamarine;
+border-style: solid;
+}
+.son{
+background-color:burlywood;
+border-style: solid;
+
+}
+.daddy-2{
+    position: sticky;
+    top: 100px;
+    right: 100px
+}
+.daddy-2,.daddy-3{
+    background-color: aqua;
+    border-style: dashed;
+    padding: 0px;
+    margin: 10px;
+    
+}
+.mother-2,.mother-3{
+    background-color: bisque;
+    border-style: solid;
+}
+.daughter-2, .daughter-3{
+    background-color: aquamarine;
+    border-style: solid;
+}
+.son-2,.son-3{
+    background-color: burlywood;
+    border-style: solid;
+}
+.snake{
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-style: solid;
+    
+}
